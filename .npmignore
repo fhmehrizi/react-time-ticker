@@ -1,0 +1,34 @@
+npm-debug.log
+# Exclude node_modules (handled automatically by npm)
+node_modules
+
+# Exclude build-related files
+rollup.config.js
+babel.config.js
+webpack.config.js
+vite.config.ts
+tsconfig.node.json
+tsconfig.json
+tsconfig.app.tsbuildinfo
+tsconfig.node.tsbuildinfo
+tsconfig.app.json
+index.html
+eslint.config.js
+
+# Exclude source files if you're publishing the built files
+src/
+
+# Exclude test files
+test/
+tests/
+__tests__/
+coverage/
+
+# Exclude Git-related files
+.git/
+.gitignore
+
+# Exclude configuration files
+.vscode/
+*.log
+*.env

@@ -1,0 +1,62 @@
+{
+  "name": "react-time-ticker",
+  "version": "0.1.87",
+  "description": "react-time-ticker is a customizable React countdown timer with smooth animations and flexible styling options. It integrates easily into projects and supports various configurations.",
+  "type": "module",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc -b",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "react": "^16.8.0 || ^17 || ^18",
+    "react-dom": "^16.8.0 || ^17 || ^18"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^8.0.1",
+    "vite": "^5.4.1",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fhmehrizi/react-time-ticker.git"
+  },
+  "keywords": [
+    "react-component",
+    "countdown",
+    "timer",
+    "countdown-timer",
+    "react-timer",
+    "time-ticker",
+    "react-time-ticker",
+    "tailwindcss-component",
+    "countdown-timer-component",
+    "time-display",
+    "react-countdown"
+  ],
+  "author": "Farshid H.Mehrizi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fhmehrizi/react-time-ticker/issues"
+  },
+  "homepage": "https://github.com/fhmehrizi/react-time-ticker#readme"
+}
