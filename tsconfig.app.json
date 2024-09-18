@@ -6,13 +6,12 @@
     "module": "ESNext",
     "skipLibCheck": true,
 
-    /* Bundler mode */
-    "declaration": true,
-    "declarationMap": true,
     "outDir": "./dist",
     "rootDir": "./src",
-    "forceConsistentCasingInFileNames": true,
     "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Bundler mode */
     "moduleResolution": "bundler",
     "isolatedModules": true,
     "moduleDetection": "force",
